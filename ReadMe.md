@@ -32,7 +32,7 @@ To use these icons, will want to include in the `<head></head>` of your html fil
 <link rel="icon" href="/path/to/favicon-128.png" sizes="128x128">
 <link rel="icon" href="/path/to/favicon-228.png" sizes="228x228">
 <!-- Android -->
-<link rel="shortcut icon" sizes="196x196" href="/path/to/favicon-196.png">
+<link rel="shortcut icon" href="/path/to/favicon-196.png" sizes="196x196">
 <!-- iOS -->
 <link rel="apple-touch-icon" href="/path/to/favicon-120.png" sizes="120x120">
 <link rel="apple-touch-icon"  href="path/to/favicon-152.png" sizes="152x152">
