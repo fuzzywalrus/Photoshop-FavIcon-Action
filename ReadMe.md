@@ -1,6 +1,10 @@
-# Photoshop Favicon Creator Action for the Obsessive
+# Favicon Creator Action for the Obsessive
 
-FavIcons today are plentiful, ranging a variety of sizes, however wrangling them all in is a pain. This is a simple Photoshop action that creates 13 favicon sizes based on the current standards. I highly recommend [favicon cheat sheet](https://github.com/audreyr/favicon-cheat-sheet) and [Apple's Configuring Web Applications](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)  for more information
+FavIcons today are plentiful, ranging a variety of sizes, however wrangling them all in is a pain. This is a simple Photoshop  action and sketch file with predefined exports that creates 13 favicon sizes based on the current standards. 
+
+I highly recommend [favicon cheat sheet](https://github.com/audreyr/favicon-cheat-sheet) and [Apple's Configuring Web Applications](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)  for more information.
+
+# Photoshop Favicon Creator for the Obsessive.
 
 ## Installing the action
 
@@ -10,11 +14,17 @@ In Photoshop (under actions), click the menu and locate "Load Action", this will
 
 The default image must be square and above 228 x 228 pixels (I recommend personally recommend using higher than this). Click play and the action will create 13 icon sizes in PNG.
 
+
+# Sketch Export for the Obsessive
+
+Open the sketch, and replace the content with your own content. 
+
+
 #### Optional but recommended: Optimization
 
 Unoptimized PNGs from Photoshop tend to be quite large. I highly recommend for macOS users the free application [ImageOptim](https://imageoptim.com/mac) for lossless PNG compression. It's brainlessly easy. Drag and drop all the newly created PNGs to shave off valuable KBs off images without any quality hit.
 
-For the more obsessive, macOS users, [ImageAlpha](https://pngmini.com/) (works in tandem with ImageOptim) allows users to use indexed color profiles to even further reduce file sizes. [PNGquant](https://pngquant.org/) works natively from Photoshop and [TinyPNG](https://tinypng.com/) provides free service usable from your web browser. See [favicon cheat sheet](https://github.com/audreyr/favicon-cheat-sheet) for CLI utilities.
+For the more obsessive, macOS users, [ImageAlpha](https://pngmini.com/) (works in tandem with ImageOptim) allows users to use indexed color profiles to even further reduce file sizes. [PNGquant](https://pngquant.org/) works natively from Photoshop and [TinyPNG](https://tinypng.com/) provides free service usable from your web browser. Laslty, [ImageSquash](https://www.realmacsoftware.com/squash/) by RealMac offers a commercial alternative. See [favicon cheat sheet](https://github.com/audreyr/favicon-cheat-sheet) for CLI utilities.
 
 
 ## Required HTML
@@ -74,8 +84,10 @@ For IE 10 and older browsers you will still need to create a favicon.ico. If you
 
 ### Don't forget OpenGraph images & Twitter Card images
 
-Favicons are only part of the preview game for your website, be sure to include Twitter Card and FaceBook OpenGraph data for much more social media friendly sharing of your website/webapp. For both Twitter:card and og tags to work, they both require more than just the images. Image requirements are linked below.
+Favicons are only part of the preview game for your website, be sure to include Twitter Card and FaceBook OpenGraph data for much more social media friendly sharing of your website/webapp. Apple's Messages, Slack and other popular communication applications use these for Rich Media Previews. For both Twitter:card and og tags to work, they both require more than just the images. Image requirements are linked below.
 
 [FaceBook Best Practices for Images practices](https://developers.facebook.com/docs/sharing/best-practices#images)
 
 [Twitter Summary Card with Large Image](https://dev.twitter.com/cards/types/summary-large-image)
+
+[How to add iMessage Rich Video Previews to your website](https://www.emergeinteractive.com/insights/detail/rich-video-previews-in-ios-macos-messages)
