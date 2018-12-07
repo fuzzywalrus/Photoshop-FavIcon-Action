@@ -43,6 +43,7 @@ To use these icons, will want to include in the `<head></head>` of your HTML fil
 <link rel="icon" href="/path/to/favicon-76.png" sizes="76x76">
 <link rel="icon" href="/path/to/favicon-96.png" sizes="96x96">
 <link rel="icon" href="/path/to/favicon-128.png" sizes="128x128">
+<link rel="icon" href="/path/to/favicon-196.png" sizes="196x196">
 <link rel="icon" href="/path/to/favicon-228.png" sizes="228x228">
 <!-- Android -->
 <link rel="shortcut icon" href="/path/to/favicon-196.png" sizes="196x196">
