@@ -1,8 +1,8 @@
 # Favicon Creator Action for the Obsessive
 
-FavIcons today are plentiful, ranging a variety of sizes, however wrangling them all in is a pain. This is a simple Photoshop action and sketch file with predefined exports that creates 13 favicon sizes based on the current standards. 
+FavIcons today are plentiful, ranging a variety of sizes, however wrangling them all in is a pain. This porject includes a simple Photoshop actio, sketch file with predefined exports  and macOS Automator script  that creates 14 favicon sizes based on the current standards. 
 
-I highly recommend [favicon cheat sheet](https://github.com/audreyr/favicon-cheat-sheet) and [Apple's Configuring Web Applications](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)  for more information.
+I highly recommend [favicon cheat sheet](https://github.com/audreyr/favicon-cheat-sheet) and [Apple's Configuring Web Applications](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html) and  [The Web App Manifest](https://developers.google.com/web/fundamentals/web-app-manifest/)  for more information.
 
 # Photoshop Favicon Creator for the Obsessive.
 
@@ -72,6 +72,7 @@ Size | Name | Purpose
 152x152 | favicon-152.png | iPad touch icon (Change for iOS 7: up from 144x144)
 167x167 | favicon-167.png | iPad Retina touch icon (change for iOS 10: up from 152x152)**
 180x180 | favicon-180.png | iPhone 6 plus
+192x192 | favicon-192.png | Google Developer Web App Manifest Recommendation for Chrome
 195x195 | favicon-195.png | Opera Speed Dial icon (Not working in Opera 15 and later)
 196x196 | favicon-196.png | Chrome for Android home screen icon
 228x228 | favicon-228.png | Opera Coast icon
@@ -89,7 +90,7 @@ Google also has declarations in a manifest.json file, [Web App Manifest](https:/
 
 ### Don't forget OpenGraph images & Twitter Card images
 
-Favicons are only part of the preview game for your website, be sure to include Twitter Card and FaceBook OpenGraph data for much more social media friendly sharing of your website/web app. Apple's Messages, Slack, and other popular communication applications use these for Rich Media Previews. For both Twitter:card and og tags to work, they both require more than just the images. Image requirements are linked below.
+Favicons are only part of the preview game for your website, be sure to include Twitter Card and FaceBook OpenGraph data for much more social media friendly sharing of your website/web app. Apple's Messages, Slack, and other popular communication applications use these for Rich Media Previews. For both Twitter:card and OG tags to work, they both require more than just the images. Image requirements are linked below.
 
 [Facebook Best Practices for Images practices](https://developers.facebook.com/docs/sharing/best-practices#images)
 
