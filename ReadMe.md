@@ -38,10 +38,10 @@ To use these icons, will want to include in the `<head></head>` of your HTML fil
 
 ```html
 <!-- generics -->
-<link rel="icon" href="/path/to/favicon-32.png" sizes="32x32">
-<link rel="icon" href="/path/to/favicon-57.png" sizes="57x57">
-<link rel="icon" href="/path/to/favicon-76.png" sizes="76x76">
-<link rel="icon" href="/path/to/favicon-96.png" sizes="96x96">
+<link rel="icon" href="/path/to/favicon-32.png"  sizes="32x32">
+<link rel="icon" href="/path/to/favicon-57.png"  sizes="57x57">
+<link rel="icon" href="/path/to/favicon-76.png"  sizes="76x76">
+<link rel="icon" href="/path/to/favicon-96.png"  sizes="96x96">
 <link rel="icon" href="/path/to/favicon-128.png" sizes="128x128">
 <link rel="icon" href="/path/to/favicon-196.png" sizes="196x196">
 <link rel="icon" href="/path/to/favicon-228.png" sizes="228x228">
@@ -49,9 +49,9 @@ To use these icons, will want to include in the `<head></head>` of your HTML fil
 <link rel="shortcut icon" href="/path/to/favicon-196.png" sizes="196x196">
 <!-- iOS -->
 <link rel="apple-touch-icon" href="/path/to/favicon-120.png" sizes="120x120">
-<link rel="apple-touch-icon"  href="path/to/favicon-152.png" sizes="152x152">
-<link rel="apple-touch-icon" href="path/to/favicon-180.png" sizes="180x180">
-<!-- windows -->
+<link rel="apple-touch-icon" href="/path/to/favicon-152.png" sizes="152x152">
+<link rel="apple-touch-icon" href="/path/to/favicon-180.png" sizes="180x180">
+<!-- Windows -->
 <meta name="msapplication-TileColor" content="#FFFFFF">
 <meta name="msapplication-TileImage" content="/path/to/favicon-144.png">
 ```
@@ -85,6 +85,7 @@ Size | Name | Purpose
 
 For IE 10 and older browsers, you will still need to create a favicon.ico. If you elect to include a favicon.ico, currently safari will default to the favicon.ico over the PNG. I highly recommend following [How to Create Retina-Caliber Favicons](https://daringfireball.net/2013/01/retina_favicons) to preserve retina icons for Safari.
 
+Google also has declarations in a manifest.json file, [Web App Manifest](https://developers.google.com/web/fundamentals/web-app-manifest/).
 
 ### Don't forget OpenGraph images & Twitter Card images
 
