@@ -57,7 +57,7 @@ To use these icons, you will want to include in the `<head></head>` of your HTML
 Size | Name | Purpose
 ---- | ---- | -------
 32x32  | favicon-32.png | Certain old but not too old Chrome versions mishandle ico
-120x120 | favicon-120.png | iPhone retina touch icon (Change for iOS 7: up from 114x114) - depreciated
+120x120 | favicon-120.png | iPhone retina touch icon (Change for iOS 7: up from 114x114) - deprecated
 128x128 | favicon-128.png | Chrome Web Store icon
 128x128 | smalltile.png  | Small Windows 8 Star Screen Icon
 152x152 | favicon-152.png | iPad touch icon (Change for iOS 7: up from 144x144)
@@ -70,16 +70,16 @@ Size | Name | Purpose
 558x558 | largetile.png  |  Large Windows 8 Start Screen Icon *
 
 
-Depreciated 
+Deprecated 
 
 Size | Name | Purpose
 ---- | ---- | -------
-57x57  | favicon-57.png | Standard iOS home screen (iPod Touch, iPhone first generation to 3G) - depreciated *
-76x76  | favicon-76.png | iPad home screen icon - depreciated *
-96x96  | favicon-96.png | GoogleTV icon - depreciated *
-114x114 | favicon-114.png | iOS7 Retina - depreciated *
-144x144 | favicon-144.png | IE10 Metro tile for pinned sites - iPad pre-iOS 10 - depreciated *
-195x195 | favicon-195.png | Opera Speed Dial icon (Not working in Opera 15 and later) - depreciated *
+57x57  | favicon-57.png | Standard iOS home screen (iPod Touch, iPhone first generation to 3G) - deprecated *
+76x76  | favicon-76.png | iPad home screen icon - deprecated *
+96x96  | favicon-96.png | GoogleTV icon - deprecated *
+114x114 | favicon-114.png | iOS7 Retina - deprecated *
+144x144 | favicon-144.png | IE10 Metro tile for pinned sites - iPad pre-iOS 10 - deprecated *
+195x195 | favicon-195.png | Opera Speed Dial icon (Not working in Opera 15 and later) - deprecated *
 228x228 | favicon-228.png | Opera Coast icon - depreicated *
 
 * *Denotes not included in this action
